@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Ford Chatbot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Brand new Chatbot for the Ford UK website. Front-end only. The backend is deployed on an AWS EC2 instance.
 
 ## Available Scripts
 
