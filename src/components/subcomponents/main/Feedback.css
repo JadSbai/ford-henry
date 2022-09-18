@@ -1,0 +1,39 @@
+.feedbackGroup{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3px;
+}
+
+.css-1c99szj-MuiRating-icon path {
+    fill: #010E59;
+}
+
+/* .feedbackForm{
+    position: relative;
+    flex-direction: column;
+} */
+
+.feedbackTxtBox{
+    width: 150px;
+    resize: vertical;
+    height: 50px;
+    word-wrap: normal;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#010E59;
+    background-color: none;
+    padding-left: 10px;
+}
+
+.submitBtn{
+    /* display: relative; */
+    width: auto;
+    left: 0%;
+    border-radius: 20px 20px 20px  20px;
+    color: white;
+    background-color: #010E59 ;
+    border: 2px solid white;
+    font-size: x-small;
+}

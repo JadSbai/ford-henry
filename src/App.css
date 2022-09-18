@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-image: url('./images/FordWebBackground.png');
+  background-size:100%;
+  /* background-repeat: 'no-repeat'; */
+  overflow-y: scroll;
+  width: 100vw;
+  height: 150vh;
+}
+
+

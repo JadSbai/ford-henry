@@ -1,0 +1,77 @@
+.principleBtns {
+    inline-size: 80%;
+    height: 33px;
+    writing-mode: horizontal-tb;
+    line-height: 25px;
+    border: solid 3px #010E59;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    color: #010E59;
+    background-color: white;
+    top: 8px;
+    left: 10%;
+    margin-bottom: 8px;
+}
+
+.alternativeBtns {
+    inline-size: 80%;
+    height: auto;
+    writing-mode: horizontal-tb;
+    line-height: 25px;
+    border: solid 3px #010E59;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    color: #010E59;
+    background-color: white;
+    top: 8px;
+    left: 10%;
+    margin-bottom: 8px;
+}
+
+.principleBtn1 {
+    inline-size: 80%;
+    height: 33px;
+    writing-mode: horizontal-tb;
+    line-height: 25px;
+    border: solid 3px #000071;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    color: #010E59;
+    background-color: white;
+    top: 8px;
+    left: 10%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.buttons-container {
+    margin-bottom: 8px;
+}
+
+.principleBtns:hover, .principleBtn1:hover  {
+    background: #000071;
+    color: white;
+}
+
+.alternativeBtns:hover {
+    background: #010E59;
+    color: white;
+}
+
+/* .alternativeBtns:hover > a {
+    color: black;
+}
+
+
+.alternativeBtns > a {
+    color: #010E59;
+} */

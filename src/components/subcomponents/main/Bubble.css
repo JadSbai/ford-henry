@@ -1,0 +1,86 @@
+.botBubble {
+    text-align: left;
+    margin: 2%;
+    position: relative;
+    left: 3%;
+    align-self: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    inline-size: 65%;
+    overflow-wrap: break-word;
+    line-height: 20px;
+    width: auto;
+    max-width: 70%;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px 16px;
+    margin-top: 10px;
+    color: white;
+    background: #010E59;
+}
+
+.triangle-left {
+    border-color: transparent #010E59 transparent transparent;
+    border-style: solid;
+    border-width: 18px 20px 1px 20px;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: -28px;
+    bottom: 2px;
+    float: left;
+    margin-right: 0%;
+    z-index: 50;
+}
+
+.triangle-right {
+    border-color: transparent transparent transparent white;
+    border-style: solid;
+    border-width: 18px 20px 1px 20px;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    right: -28px;
+    bottom: 2px;
+    float: left;
+    z-index: 50;
+}
+  
+
+.bTime{
+    position: absolute;
+    color: #010E59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    bottom: -18px;
+    /* padding-bottom: 10px; */
+}
+
+.userBubble {
+    text-align: left;
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    inline-size: 65%;
+    overflow-wrap: break-word;
+    line-height: 20px;
+    width: fit-content;
+    max-width: 70%;
+    height: auto;
+    background: white;
+    color: #010E59;
+    border-radius: 20px;
+
+    padding: 5px 16px;
+    position: relative;
+    right: 3%;
+}
+
+.uTime{
+    position: absolute;
+    color: #010E59;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    bottom: -18px;
+    right: 10%;
+}

@@ -1,0 +1,45 @@
+
+.nameTxtBox {
+    display: inline-block;
+    width: 80%;
+    /* height: 35px; */
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#010E59;
+    background-color: none;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    border: 2px solid #010E59;
+    border-right: none;
+    padding-left: 10px;
+}
+
+.nameTxtBox::placeholder {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.okBtn {
+    display: inline-block;
+    width: 20%;
+    left: 0%;
+    border-radius: 0px 20px 20px  0px;
+    color: #010E59;
+    background-color: white;
+    border: 2px solid #010E59;
+    border-left: none;
+    font-size: small;
+}
+
+fieldset {
+    font-size: 0.2em;
+    border-radius: 1em;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+label, input, button {
+    font-size: inherit;
+}
